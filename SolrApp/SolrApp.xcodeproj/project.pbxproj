@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873231561B60E19000A39968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873231551B60E19000A39968 /* AppDelegate.swift */; };
+		873231581B60E19000A39968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873231571B60E19000A39968 /* ViewController.swift */; };
+		8732315B1B60E19000A39968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873231591B60E19000A39968 /* Main.storyboard */; };
+		8732315D1B60E19000A39968 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8732315C1B60E19000A39968 /* Images.xcassets */; };
+		873231601B60E19000A39968 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8732315E1B60E19000A39968 /* LaunchScreen.xib */; };
+		8732316C1B60E19100A39968 /* SolrAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732316B1B60E19100A39968 /* SolrAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		873231661B60E19100A39968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873231481B60E19000A39968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8732314F1B60E19000A39968;
+			remoteInfo = SolrApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		873231501B60E19000A39968 /* SolrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873231541B60E19000A39968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873231551B60E19000A39968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		873231571B60E19000A39968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8732315A1B60E19000A39968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8732315C1B60E19000A39968 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8732315F1B60E19000A39968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		873231651B60E19100A39968 /* SolrAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8732316A1B60E19100A39968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8732316B1B60E19100A39968 /* SolrAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolrAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8732314D1B60E19000A39968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873231621B60E19100A39968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873231471B60E19000A39968 = {
+			isa = PBXGroup;
+			children = (
+				873231521B60E19000A39968 /* SolrApp */,
+				873231681B60E19100A39968 /* SolrAppTests */,
+				873231511B60E19000A39968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873231511B60E19000A39968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873231501B60E19000A39968 /* SolrApp.app */,
+				873231651B60E19100A39968 /* SolrAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873231521B60E19000A39968 /* SolrApp */ = {
+			isa = PBXGroup;
+			children = (
+				873231551B60E19000A39968 /* AppDelegate.swift */,
+				873231571B60E19000A39968 /* ViewController.swift */,
+				873231591B60E19000A39968 /* Main.storyboard */,
+				8732315C1B60E19000A39968 /* Images.xcassets */,
+				8732315E1B60E19000A39968 /* LaunchScreen.xib */,
+				873231531B60E19000A39968 /* Supporting Files */,
+			);
+			path = SolrApp;
+			sourceTree = "<group>";
+		};
+		873231531B60E19000A39968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873231541B60E19000A39968 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873231681B60E19100A39968 /* SolrAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8732316B1B60E19100A39968 /* SolrAppTests.swift */,
+				873231691B60E19100A39968 /* Supporting Files */,
+			);
+			path = SolrAppTests;
+			sourceTree = "<group>";
+		};
+		873231691B60E19100A39968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8732316A1B60E19100A39968 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8732314F1B60E19000A39968 /* SolrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8732316F1B60E19100A39968 /* Build configuration list for PBXNativeTarget "SolrApp" */;
+			buildPhases = (
+				8732314C1B60E19000A39968 /* Sources */,
+				8732314D1B60E19000A39968 /* Frameworks */,
+				8732314E1B60E19000A39968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolrApp;
+			productName = SolrApp;
+			productReference = 873231501B60E19000A39968 /* SolrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		873231641B60E19100A39968 /* SolrAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873231721B60E19100A39968 /* Build configuration list for PBXNativeTarget "SolrAppTests" */;
+			buildPhases = (
+				873231611B60E19100A39968 /* Sources */,
+				873231621B60E19100A39968 /* Frameworks */,
+				873231631B60E19100A39968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873231671B60E19100A39968 /* PBXTargetDependency */,
+			);
+			name = SolrAppTests;
+			productName = SolrAppTests;
+			productReference = 873231651B60E19100A39968 /* SolrAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873231481B60E19000A39968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kiota Labs Pvt. Ltd.";
+				TargetAttributes = {
+					8732314F1B60E19000A39968 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					873231641B60E19100A39968 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8732314F1B60E19000A39968;
+					};
+				};
+			};
+			buildConfigurationList = 8732314B1B60E19000A39968 /* Build configuration list for PBXProject "SolrApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873231471B60E19000A39968;
+			productRefGroup = 873231511B60E19000A39968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8732314F1B60E19000A39968 /* SolrApp */,
+				873231641B60E19100A39968 /* SolrAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8732314E1B60E19000A39968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8732315B1B60E19000A39968 /* Main.storyboard in Resources */,
+				873231601B60E19000A39968 /* LaunchScreen.xib in Resources */,
+				8732315D1B60E19000A39968 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873231631B60E19100A39968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8732314C1B60E19000A39968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873231581B60E19000A39968 /* ViewController.swift in Sources */,
+				873231561B60E19000A39968 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873231611B60E19100A39968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8732316C1B60E19100A39968 /* SolrAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		873231671B60E19100A39968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8732314F1B60E19000A39968 /* SolrApp */;
+			targetProxy = 873231661B60E19100A39968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		873231591B60E19000A39968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8732315A1B60E19000A39968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8732315E1B60E19000A39968 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8732315F1B60E19000A39968 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8732316D1B60E19100A39968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8732316E1B60E19100A39968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873231701B60E19100A39968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873231711B60E19100A39968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		873231731B60E19100A39968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolrAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolrApp.app/SolrApp";
+			};
+			name = Debug;
+		};
+		873231741B60E19100A39968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolrAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolrApp.app/SolrApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8732314B1B60E19000A39968 /* Build configuration list for PBXProject "SolrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8732316D1B60E19100A39968 /* Debug */,
+				8732316E1B60E19100A39968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8732316F1B60E19100A39968 /* Build configuration list for PBXNativeTarget "SolrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873231701B60E19100A39968 /* Debug */,
+				873231711B60E19100A39968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		873231721B60E19100A39968 /* Build configuration list for PBXNativeTarget "SolrAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873231731B60E19100A39968 /* Debug */,
+				873231741B60E19100A39968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873231481B60E19000A39968 /* Project object */;
+}
